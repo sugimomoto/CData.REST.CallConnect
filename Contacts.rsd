@@ -86,6 +86,7 @@
 
     <api:set attr="method" value="POST"/>
     <api:call op="jsonproviderGet">
+      <api:throw code="500" desc="Inserts are not currently supported."/>
       <api:push/>
     </api:call>
   </api:script>
@@ -119,6 +120,7 @@
 
     <api:set attr="method" value="PUT"/>
     <api:call op="jsonproviderGet">
+      <api:throw code="500" desc="Update are not currently supported."/>
       <api:push/>
     </api:call>
   </api:script>
@@ -130,6 +132,7 @@
 
     <api:set attr="method" value="DELETE"/>
     <api:call op="jsonproviderGet">
+      <api:throw code="500" desc="Deletes are not currently supported."/>
       <api:push/>
     </api:call>
   </api:script>

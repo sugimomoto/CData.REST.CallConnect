@@ -78,6 +78,7 @@
 
     <api:set attr="method" value="PUT"/>
     <api:call op="jsonproviderGet">
+      <api:throw code="500" desc="Update are not currently supported."/>
       <api:push/>
     </api:call>
   </api:script>
