@@ -30,7 +30,7 @@
   
   <api:set attr="enablepaging" value="TRUE" />
   <rsb:set  attr="count" value="[rows@next | def('0') | add()]" />
-
+  <!-- test -->
   <!-- The GET method corresponds to SELECT. Here you can override the default processing of the SELECT statement. The results of processing are pushed to the schema's output. See SELECT Execution for more information. -->
   <api:script method="GET">
 
